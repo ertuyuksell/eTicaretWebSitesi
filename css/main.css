@@ -1,0 +1,85 @@
+/*! global css */
+@import url(base.css);
+
+/*! layout css */
+
+@import url(layout/header.css);
+
+/*! components css */
+
+@import url(components/modal-search.css);
+
+/*! slider css */
+
+@import url(components/slider.css);
+
+/*! home css */
+
+@import url(pages/home.css);
+
+/*! categories css */
+
+@import url(components/categories-item.css);
+
+/*! products css */
+
+@import url(components/products-item.css);
+
+/*! campaigns css */
+
+@import url(components/campaigns-item.css);
+
+/*! newarriwals css */
+
+@import url(components/newarriwals-item.css);
+
+/*! blogs css */
+
+@import url(components/blogs-item.css);
+
+/*! campaigns-single css */
+
+@import url(components/campaigns-single.css);
+
+/*! campaigns-single css */
+
+@import url(layout/footer.css);
+
+/*! contact css */
+
+@import url(pages/contact.css);
+
+/*! account css */
+
+@import url(pages/account.css);
+
+/*! cart css */
+
+@import url(pages/cart.css);
+
+/*! single-product css */
+
+@import url(pages/single-product.css);
+
+/*! breadcrumb css */
+
+@import url(components/single-product/breadcrumb.css);
+
+/*! product-gallery css */
+
+@import url(components/single-product/product-gallery.css);
+
+/*! product-info css */
+@import url(components/single-product/product-info.css);
+
+/*! product-tabs css */
+@import url(components/single-product/product-tabs.css);
+
+/*! review css */
+@import url(components/single-product/review.css);
+
+/*! single-blog css */
+@import url(pages/single-blog.css);
+
+/*! modal-dialog css */
+@import url(components/modal-dialog.css);

@@ -1,0 +1,231 @@
+.products {
+  position: relative;
+}
+
+/* .products .products-wrapper .products-list {
+  z-index: 1;
+} */
+
+.newarriwals .newarriwals-item {
+  text-align: center;
+  background: #efefef;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* flex: 1; */
+  z-index: 1;
+}
+
+.newarriwals .newarriwals-item .newarriwals-img {
+  width: 100%;
+  height: 100%;
+}
+
+.newarriwals .newarriwals-item img {
+  transition: 0.4s ease-in-out all;
+}
+
+.newarriwals .newarriwals-item .newarriwals-img img {
+  width: 100%;
+}
+
+.newarriwals .newarriwals-item .newarriwals-img .imgfront:hover {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.newarriwals .newarriwals-item .newarriwals-img:hover .imgback {
+  visibility: visible;
+  opacity: 1;
+}
+
+.newarriwals .newarriwals-item .newarriwals-img .imgback {
+  display: flex;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.newarriwals .newarriwals-item .newarriwals-title {
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.newarriwals .newarriwals-item .newarriwals-star {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+  column-gap: 2px;
+}
+
+.newarriwals .newarriwals-item .newarriwals-star i {
+  font-size: 12px;
+  color: gold;
+}
+
+.newarriwals .newarriwals-item .newarriwals-prices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  padding-bottom: 15px;
+}
+
+.newarriwals .newarriwals-item .newarriwals-prices strong {
+  color: #ff3c20;
+  font-weight: 500;
+}
+
+.newarriwals .newarriwals-item .newarriwals-prices span {
+  color: #7d7d7d;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.newarriwals .newarriwals-item .newarriwals-discount {
+  width: 40px;
+  height: 40px;
+  background-color: #ff3c20;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border-radius: 100%;
+  font-weight: 500;
+}
+
+.newarriwals .newarriwals-item .newarriwals-links {
+  display: flex;
+  flex-direction: column; /*ikonları yan yana yapar */
+  row-gap: 8px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-out;
+}
+
+.newarriwals .newarriwals-item:hover .newarriwals-links {
+  /*item hover oluyorki o kutucuğa gelince hover olsun */
+  transform: translate(10px);
+  opacity: 1;
+  visibility: visible;
+}
+
+.newarriwals .newarriwals-item .newarriwals-links button,
+.newarriwals .newarriwals-item .newarriwals-links a {
+  background-color: black;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 4px;
+  transition: all ease 0.4s;
+}
+
+.newarriwals .newarriwals-item .newarriwals-links button:hover,
+.newarriwals .newarriwals-item .newarriwals-links a:hover {
+  opacity: 0.7;
+}
+
+.newarriwals .newarriwals-item .newarriwals-links i {
+  color: white;
+  font-size: 14px;
+  display: flex;
+}
+
+.newarriwals-wrapper {
+  position: relative;
+}
+
+.newarriwals-wrapper .glide__arrow {
+  position: absolute;
+  top: 50%;
+  background-color: transparent;
+}
+
+.newarriwals-wrapper .glide__arrow--left {
+  left: -65px;
+  border-radius: 100%;
+  border: 1px solid #fed700;
+  opacity: 0.5;
+  color: white;
+  background-color: #fed700;
+  transition: 0.3s ease all;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.newarriwals-wrapper .glide__arrow--right {
+  right: -65px;
+  border-radius: 100%;
+  border: 1px solid #fed700;
+  opacity: 0.5;
+  color: white;
+  background-color: #fed700;
+  transition: 0.3s ease all;
+  width: 50px !important;
+  height: 50px !important;
+}
+.newarriwals .newarriwals-wrapper .glide__arrow:hover {
+  background-color: white;
+  color: #fed700;
+  opacity: 1;
+  border-color: #fed700;
+}
+
+.newarriwals-wrapper .glide__arrow i {
+  font-size: 25px;
+}
+
+/* .products .products-buttons button {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 100%;
+  border: 1px solid #fed700;
+  opacity: 0.5;
+  color: white;
+  background-color: #fed700;
+  transition: 0.3s ease all;
+} */
+
+/* .products .products-buttons button:hover {
+  background-color: white;
+  color: #fed700;
+  opacity: 1;
+  border-color: #fed700;
+} */
+
+/* .products .products-buttons i {
+  font-size: 25px;
+} */
+
+/* .products .products-buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 90px;
+  z-index: 0;
+} */
+
+@media (max-width: 576px) {
+  .newarriwals-wrapper .glide__arrow--left {
+    left: 0px;
+  }
+
+  .newarriwals-wrapper .glide__arrow--right {
+    right: 0px;
+  }
+}
